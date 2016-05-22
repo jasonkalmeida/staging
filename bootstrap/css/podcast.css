@@ -276,6 +276,7 @@ button#button.btn.btn-default.change-error
     height: 67px;
     width: 142px;
     font-size: 24px;
+	max-height:57px;
 	
 }
 
