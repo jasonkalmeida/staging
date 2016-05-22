@@ -64,7 +64,7 @@ $(function() {
 						 
 						 $( "#button" ).removeClass( "change-error" );
 						 el.innerHTML = 'Click for Awesomeness';
-						 $('#email').attr('placeholder',' Email... ');
+						 $('#email').attr('placeholder','Enter your email and never miss an episode');
 						 
 						 
 						 
