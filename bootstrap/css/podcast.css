@@ -246,17 +246,17 @@ button.btn.btn-default:hover {
 
 button#button.btn.btn-default.change {
   
-  color: white;
-  font-family: 'FontAwesome';
-  line-height: 30px;
+    color: white;
+    font-family: 'FontAwesome';
+    letter-spacing: 2px;
+    line-height: 30px;
   
-  font-size: 10px;
-
-  /*padding: 10px 20px 10px 20px;*/
-  text-decoration: none;
-  height: 67px;
-  width: 142px;
-  letter-spacing: 0px;
+    /*font-size: 20px;*/
+    /*padding: 10px 20px 10px 20px;*/
+    text-decoration: none;
+    height: 67px;
+    width: 142px;
+    font-size: 24px;
   
   
   
@@ -266,6 +266,7 @@ button#button.btn.btn-default.change-error
 {
     color: white;
     font-family: 'FontAwesome';
+    letter-spacing: 2px;
     line-height: 30px;
 	background-color: #cc0000;
   
@@ -274,8 +275,7 @@ button#button.btn.btn-default.change-error
     text-decoration: none;
     height: 67px;
     width: 142px;
-    font-size: 10px;
-    letter-spacing: 0px;
+    font-size: 24px;
 	
 }
 
@@ -286,6 +286,7 @@ button#button.btn.btn-default.change-error
 	padding-top: 2%;
 	color:white;
 	height: 155px;
+	-webkit-font-smoothing: antialiased;
 }
 
 #myCarousel p
@@ -511,6 +512,16 @@ footer
 	font-size:16px;
 }
 
+@media screen and (min-width: 1205px){
+		
+	.imgCon
+	{
+		transform:initial;
+	}
+	
+}
+
+
 @media screen and (min-width: 769px) and (max-width: 1205px) {
 	
 
@@ -679,6 +690,11 @@ footer
 		    margin-right: auto;
 	}
 	
+	.promo .img-responsive
+	{
+		max-width:75%;
+	}
+	
 	
     /*.row {
            position: relative;
@@ -712,6 +728,14 @@ footer
        }
    }
 		*/
+}
+
+@media screen and (max-width: 513px){
+	.podImg
+	{
+		width: 100%;
+	}
+	
 }
 
 .spinner {
